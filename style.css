@@ -1,0 +1,52 @@
+.calculadora{
+    display: block;
+    margin: 0% auto;
+    padding: 20px;
+    background-color: rgb(65, 65, 65);
+    width: 300px;
+    height: 525px;
+    border-radius: 25px;
+}
+.boton button{
+    display: inline;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+#resultado{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    width: 300px;
+    height: 100px;
+    background-color: azure;
+    border-radius: 25px;
+}
+#igual{
+    background-color: rgb(231, 229, 87);
+}
+#suma{
+    background-color: rgb(211, 85, 180);
+}
+#resta{
+    background-color: rgb(211, 85, 180);
+}
+#multiplicacion{
+    background-color: rgb(211, 85, 180);
+}
+#division{
+    background-color: rgb(211, 85, 180);
+}
+#mmas{
+    background-color: rgb(90, 90, 90);
+}
+#mmenos{
+    background-color: rgb(90, 90, 90);
+}
+#mrc{
+    background-color: rgb(90, 90, 90);
+}
